@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>فروشگاه کتاب</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1>📚 فروشگاه کتاب</h1>
+    <button class="cart-button" onclick="handleCartToggle()">🛒 سبد خرید</button>
+  </header>
+
+  <main class="main-container">
+    <aside class="filters" id="filter"></aside>
+    <section class="books-container" id="root"></section>
+  </main>
+
+  <div id="cart" class="cart hidden">
+    <h2>🛒 سبد خرید</h2>
+    <ul class="cart-items"></ul>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
