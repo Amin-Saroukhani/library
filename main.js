@@ -1,4 +1,3 @@
-// نسخه بازنویسی شده‌ی script.js با حفظ ظاهر و خروجی مشابه کد اولیه
 
 const root = document.getElementById("root");
 const filtersContainer = document.getElementById("filter");
